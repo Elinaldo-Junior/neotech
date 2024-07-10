@@ -1,0 +1,216 @@
+/* Variáveis de cores */
+:root {
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --navbar-background: #1f1f1f;
+    --primary-color: #4285F4;
+    --primary-hover: #3367D6;
+    --secondary-color: #34A853;
+    --secondary-hover: #0F9D58;
+    --warning-color: #FBBC05;
+    --warning-hover: #F9A825;
+    --danger-color: #EA4335;
+    --danger-hover: #D93025;
+    --footer-background: #1f1f1f;
+    --footer-text-color: #4285F4;
+}
+
+/* Estilo global */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo da barra de navegação */
+.navbar {
+    background-color: var(--navbar-background);
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: var(--text-color);
+}
+.navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+/* Estilo do Jumbotron */
+.jumbotron {
+    background-color: var(--navbar-background);
+    color: var(--text-color);
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 3rem;
+    border-radius: 0.3rem;
+}
+
+/* Estilo do conteúdo das seções */
+.section-content {
+    background-color: #1e1e1e;
+    color: var(--text-color);
+    padding: 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+/* Estilo dos botões */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+.btn-secondary:hover {
+    background-color: var(--secondary-hover);
+    border-color: var(--secondary-hover);
+}
+.btn-warning {
+    background-color: var(--warning-color);
+    border-color: var(--warning-color);
+}
+.btn-warning:hover {
+    background-color: var(--warning-hover);
+    border-color: var(--warning-hover);
+}
+.btn-danger {
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+}
+.btn-danger:hover {
+    background-color: var(--danger-hover);
+    border-color: var(--danger-hover);
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: var(--footer-background);
+    color: var(--text-color);
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #333;
+}
+.footer-text {
+    color: var(--footer-text-color);
+}
+
+/* Estilo do botão flutuante */
+.btn-floating {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+/* Regras de mídia para responsividade */
+@media (max-width: 576px) {
+    .d-flex {
+        flex-direction: column;
+    }
+}
+.table-custom {
+    background-color: #ffffff; /* Cor de fundo branco */
+}
+body {
+    background-color: #121212; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+}
+
+.table {
+    color: #e0e0e0;
+}
+
+.table thead {
+    background-color: #333;
+}
+
+.table tbody tr {
+    background-color: #222;
+    border-bottom: 1px solid #444;
+}
+
+.table tbody tr:hover {
+    background-color: #333;
+}
+
+.table td, .table th {
+    border: 1px solid #444;
+}
+
+/* Estilizando o input de pesquisa */
+.form-control {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+.form-control::placeholder {
+    color: #bbb;
+}
+
+/* Botões no estilo do Google Drive */
+.btn-google-drive {
+    background-color: #4285f4; /* Azul Google Drive */
+    color: white;
+    border: none;
+}
+
+.btn-google-drive:hover {
+    background-color: #357ae8; /* Azul mais escuro ao passar o mouse */
+}
+body {
+    background-color: #121212; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+}
+
+/* Estilizando a tabela de resultados com fundo branco */
+.table {
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+}
+
+.table thead {
+    background-color: #f0f0f0; /* Cabeçalho com fundo claro */
+    color: #000000; /* Texto preto */
+}
+
+.table tbody tr {
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+    border-bottom: 1px solid #dddddd; /* Bordas claras */
+}
+
+.table tbody tr:hover {
+    background-color: #f9f9f9; /* Fundo ligeiramente mais escuro ao passar o mouse */
+}
+
+.table td, .table th {
+    border: 1px solid #dddddd; /* Bordas claras */
+}
+
+/* Estilizando o input de pesquisa */
+.form-control {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+.form-control::placeholder {
+    color: #bbb;
+}
+
+/* Botões no estilo do Google Drive */
+.btn-google-drive {
+    background-color: #4285f4; /* Azul Google Drive */
+    color: white;
+    border: none;
+}
+
+.btn-google-drive:hover {
+    background-color: #357ae8; /* Azul mais escuro ao passar o mouse */
+}

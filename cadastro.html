@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro e Alteração de Notas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Cadastro e Alteração de Notas de Alunos</h2>
+        <form id="studentForm">
+            <div class="form-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" class="form-control" id="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="curso">Curso:</label>
+                <select class="form-control" id="curso">
+                    <option value="Informática Profissional">Informática Profissional</option>
+                    <option value="WebGráfico">WebGráfico</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dataInicio">Data Início:</label>
+                <input type="date" class="form-control" id="dataInicio" required>
+            </div>
+            <div class="form-group">
+                <label for="modulo">Módulo:</label>
+                <select class="form-control" id="modulo"></select>
+            </div>
+            <div class="form-group">
+                <label for="exercicios">Exercícios:</label>
+                <input type="number" class="form-control" id="exercicios" required>
+            </div>
+            <div class="form-group">
+                <label for="trabalho">Trabalho:</label>
+                <input type="number" class="form-control" id="trabalho" required>
+            </div>
+            <div class="form-group">
+                <label for="seminario">Seminário:</label>
+                <input type="number" class="form-control" id="seminario" required>
+            </div>
+            <div class="form-group">
+                <label for="prova">Prova:</label>
+                <input type="number" class="form-control" id="prova" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Salvar</button>
+        </form>
+    </div>
+
+    <script>
+        const modulosPorCurso = {
+            "Informática Profissional": [
+                "Windows", "Word", "Excel", "PowerPoint", "Digitação Profissional"
+            ],
+            "WebGráfico": [
+                "Teoria do Design", "CorelDraw", "Photoshop", "Ilustrator"
+            ]
+        };
+
+        function atualizarModulos() {
+            const cursoSelecionado = $('#curso').val();
+            const modulos = modulosPorCurso[cursoSelecionado];
+            const moduloSelect = $('#modulo');
+            moduloSelect.empty();
+            modulos.forEach(modulo => {
+                moduloSelect.append(new Option(modulo, modulo));
+            });
+        }
+
+        $(document).ready(function() {
+            // Atualizar os módulos ao carregar a página
+            atualizarModulos();
+
+            // Atualizar os módulos quando o curso é alterado
+            $('#curso').on('change', atualizarModulos);
+
+            $('#studentForm').on('submit', function(event) {
+                event.preventDefault();
+
+                const nome = $('#nome').val();
+                const curso = $('#curso').val();
+                const dataInicio = $('#dataInicio').val();
+                const modulo = $('#modulo').val();
+                const exercicios = parseFloat($('#exercicios').val());
+                const trabalho = parseFloat($('#trabalho').val());
+                const seminario = parseFloat($('#seminario').val());
+                const prova = parseFloat($('#prova').val());
+                const media = (exercicios + trabalho + seminario + prova) / 4;
+
+                $.ajax({
+                    url: 'alunos.json',
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function(data) {
+                        let alunoExistente = false;
+
+                        data.forEach(aluno => {
+                            if (aluno.nome === nome && aluno.curso === curso && aluno.dataInicio === dataInicio) {
+                                alunoExistente = true;
+                                let moduloExistente = false;
+
+                                aluno.modulos.forEach(mod => {
+                                    if (mod.modulo === modulo) {
+                                        mod.exercicios = exercicios;
+                                        mod.trabalho = trabalho;
+                                        mod.seminario = seminario;
+                                        mod.prova = prova;
+                                        mod.media = media;
+                                        moduloExistente = true;
+                                    }
+                                });
+
+                                if (!moduloExistente) {
+                                    aluno.modulos.push({ modulo, exercicios, trabalho, seminario, prova, media });
+                                }
+                            }
+                        });
+
+                        if (!alunoExistente) {
+                            data.push({
+                                nome,
+                                curso,
+                                dataInicio,
+                                modulos: [{ modulo, exercicios, trabalho, seminario, prova, media }]
+                            });
+                        }
+
+                        $.ajax({
+                            url: 'salvar_json.php',
+                            type: 'POST',
+                            contentType: 'application/json',
+                            data: JSON.stringify(data),
+                            success: function() {
+                                alert('Dados salvos com sucesso!');
+                                $('#studentForm')[0].reset();
+                                atualizarModulos();
+                            },
+                            error: function(jqXHR, textStatus, errorThrown) {
+                                console.error('Erro ao salvar dados:', textStatus, errorThrown);
+                                alert('Erro ao salvar dados.');
+                            }
+                        });
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        console.error('Erro ao carregar dados:', textStatus, errorThrown);
+                        alert('Erro ao carregar dados.');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

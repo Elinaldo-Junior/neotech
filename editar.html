@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Dados de Alunos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos adicionais para tornar a tabela responsiva em dispositivos móveis */
+        @media (max-width: 768px) {
+            .table-responsive {
+                border: 0;
+            }
+            .table thead {
+                display: none;
+            }
+            .table tbody, .table tr, .table td {
+                display: block;
+                width: 100%;
+            }
+            .table tr {
+                margin-bottom: 15px;
+            }
+            .table td {
+                text-align: left;
+                padding-left: 50%;
+                position: relative;
+            }
+            .table td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 0;
+                width: 50%;
+                padding-left: 15px;
+                font-weight: bold;
+                text-align: left;
+            }
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Editar Dados de Alunos</h2>
+        <div class="form-group">
+            <label for="search">Pesquisar Aluno:</label>
+            <input type="text" class="form-control" id="search" placeholder="Digite parte do nome do aluno">
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered mt-3">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Curso</th>
+                        <th>Data Início</th>
+                        <th>Módulo</th>
+                        <th>Exercícios</th>
+                        <th>Trabalho</th>
+                        <th>Seminário</th>
+                        <th>Prova</th>
+                        <th>Média</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="resultTable">
+                    <!-- Dados dos alunos serão inseridos aqui -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Modal para editar aluno -->
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Editar Dados do Aluno</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="editForm">
+                        <div class="form-group">
+                            <label for="editNome">Nome Completo:</label>
+                            <input type="text" class="form-control" id="editNome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="editCurso">Curso:</label>
+                            <input type="text" class="form-control" id="editCurso" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="editDataInicio">Data Início:</label>
+                            <input type="date" class="form-control" id="editDataInicio" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="editModulo">Módulo:</label>
+                            <select class="form-control" id="editModulo" required>
+                                <!-- Módulos serão inseridos dinamicamente -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="editExercicios">Exercícios:</label>
+                            <input type="number" class="form-control" id="editExercicios" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="editTrabalho">Trabalho:</label>
+                            <input type="number" class="form-control" id="editTrabalho" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="editSeminario">Seminário:</label>
+                            <input type="number" class="form-control" id="editSeminario" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="editProva">Prova:</label>
+                            <input type="number" class="form-control" id="editProva" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                        <button type="button" class="btn btn-danger float-right ml-2" id="deleteButton">Excluir Aluno</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            let alunosData = [];
+            let currentEditIndex = -1;
+
+            // Carregar dados do JSON ao carregar a página
+            $.ajax({
+                url: 'alunos.json',
+                type: 'GET',
+                dataType: 'json',
+                success: function(data) {
+                    alunosData = data;
+                    loadTable(data);
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.error('Erro ao carregar dados:', textStatus, errorThrown);
+                    alert('Erro ao carregar dados.');
+                }
+            });
+
+            // Filtrar dados com base na entrada de pesquisa
+            $('#search').on('input', function() {
+                const searchValue = $(this).val().toLowerCase();
+                const filteredData = alunosData.filter(aluno => aluno.nome.toLowerCase().includes(searchValue));
+                loadTable(filteredData);
+            });
+
+            // Função para carregar os dados na tabela
+            function loadTable(data) {
+                const resultTable = $('#resultTable');
+                resultTable.empty();
+                data.forEach(aluno => {
+                    aluno.modulos.forEach(mod => {
+                        const row = `
+                            <tr>
+                                <td data-label="Nome">${aluno.nome}</td>
+                                <td data-label="Curso">${aluno.curso}</td>
+                                <td data-label="Data Início">${aluno.dataInicio}</td>
+                                <td data-label="Módulo">${mod.modulo}</td>
+                                <td data-label="Exercícios">${mod.exercicios}</td>
+                                <td data-label="Trabalho">${mod.trabalho}</td>
+                                <td data-label="Seminário">${mod.seminario}</td>
+                                <td data-label="Prova">${mod.prova}</td>
+                                <td data-label="Média">${mod.media}</td>
+                                <td data-label="Ações">
+                                    <button class="btn btn-sm btn-warning edit-button" data-aluno-index="${alunosData.indexOf(aluno)}" data-mod-index="${aluno.modulos.indexOf(mod)}">Editar</button>
+                                </td>
+                            </tr>
+                        `;
+                        resultTable.append(row);
+                    });
+                });
+            }
+
+            // Carregar os módulos no modal de edição conforme o curso
+            function loadEditModulos(curso, moduloAtual) {
+                const modulosPorCurso = {
+                    "Informática Profissional": [
+                        "Windows", "Word", "Excel", "PowerPoint", "Digitação Profissional"
+                    ],
+                    "WebGráfico": [
+                        "Teoria do Design", "CorelDraw", "Photoshop", "Ilustrator", "WebGráfico"
+                    ]
+                };
+
+                const editModuloSelect = $('#editModulo');
+                editModuloSelect.empty();
+                modulosPorCurso[curso].forEach(modulo => {
+                    const option = new Option(modulo, modulo);
+                    if (modulo === moduloAtual) {
+                        option.selected = true;
+                    }
+                    editModuloSelect.append(option);
+                });
+            }
+
+            // Abrir modal para editar aluno
+            $(document).on('click', '.edit-button', function() {
+                const alunoIndex = $(this).data('aluno-index');
+                const modIndex = $(this).data('mod-index');
+                currentEditIndex = { alunoIndex, modIndex };
+
+                const aluno = alunosData[alunoIndex];
+                const mod = aluno.modulos[modIndex];
+
+                $('#editNome').val(aluno.nome);
+                $('#editCurso').val(aluno.curso);
+                $('#editDataInicio').val(aluno.dataInicio);
+                $('#editModulo').val(mod.modulo);
+                $('#editExercicios').val(mod.exercicios);
+                $('#editTrabalho').val(mod.trabalho);
+                $('#editSeminario').val(mod.seminario);
+                $('#editProva').val(mod.prova);
+                loadEditModulos(aluno.curso, mod.modulo);
+
+                $('#editModal').modal('show');
+            });
+
+            // Excluir aluno
+            $('#deleteButton').on('click', function() {
+                const alunoIndex = currentEditIndex.alunoIndex;
+                const aluno = alunosData[alunoIndex];
+
+                if (confirm(`Tem certeza que deseja excluir o aluno ${aluno.nome}?`)) {
+                    alunosData.splice(alunoIndex, 1); // Remove o aluno do array
+
+                    $.ajax({
+                        url: 'salvar_json.php',
+                        type: 'POST',
+                        contentType: 'application/json',
+                        data: JSON.stringify(alunosData),
+                        success: function() {
+                            alert('Aluno excluído com sucesso!');
+                            $('#editModal').modal('hide');
+                            loadTable(alunosData);
+                        },
+                        error: function(jqXHR, textStatus, errorThrown) {
+                            console.error('Erro ao excluir aluno:', textStatus, errorThrown);
+                            alert('Erro ao excluir aluno.');
+                        }
+                    });
+                }
+            });
+
+            // Salvar alterações do aluno
+            $('#editForm').on('submit', function(event) {
+                event.preventDefault();
+
+                const alunoIndex = currentEditIndex.alunoIndex;
+                const modIndex = currentEditIndex.modIndex;
+
+                const aluno = alunosData[alunoIndex];
+                const mod = aluno.modulos[modIndex];
+
+                mod.modulo = $('#editModulo').val();
+                mod.exercicios = parseFloat($('#editExercicios').val());
+                mod.trabalho = parseFloat($('#editTrabalho').val());
+                mod.seminario = parseFloat($('#editSeminario').val());
+                mod.prova = parseFloat($('#editProva').val());
+                mod.media = (mod.exercicios + mod.trabalho + mod.seminario + mod.prova) / 4;
+
+                $.ajax({
+                    url: 'salvar_json.php',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(alunosData),
+                    success: function() {
+                        alert('Dados salvos com sucesso!');
+                        $('#editModal').modal('hide');
+                        loadTable(alunosData);
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        console.error('Erro ao salvar dados:', textStatus, errorThrown);
+                        alert('Erro ao salvar dados.');
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

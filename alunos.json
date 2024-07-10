@@ -1,0 +1,1262 @@
+[
+    {
+        "nome": "DAVI FIRMINO FREIRES",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "EDIJANE DE OLIVEIRA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 4,
+                "media": 4.4
+            }
+        ]
+    },
+    {
+        "nome": "FHELIPE BENEDITO DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 10
+            }
+        ]
+    },
+    {
+        "nome": "GABRIELA BENEDITO DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 5,
+                "media": 4.8
+            }
+        ]
+    },
+    {
+        "nome": "GEYMILLY KELLY AGUIAR MATIAS",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 6,
+                "media": 6.4
+            }
+        ]
+    },
+    {
+        "nome": "HENDREW LUCAS NUNES FERREIRA DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "JENNIFER DA SILVA SANTOS",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "JÉSSICA VITÓRIA BATISTA DE SOUZA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 5,
+                "media": 5.2
+            }
+        ]
+    },
+    {
+        "nome": "LYGIA GONÇALVES DOS RAMOS",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 8,
+                "media": 8.4
+            }
+        ]
+    },
+    {
+        "nome": "MARIA ESTER FIRMINO FREIRES",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 6,
+                "media": 5.6
+            }
+        ]
+    },
+    {
+        "nome": "SAMARA ESTEVAO DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 7,
+                "media": 6.8
+            }
+        ]
+    },
+    {
+        "nome": "SAULO PEREIRA NASCIMENTO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 8,
+                "media": 7.6
+            }
+        ]
+    },
+    {
+        "nome": "SUENYA EVELLYN DOS SANTOS VENCESLAU",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 10,
+                "media": 10
+            }
+        ]
+    },
+    {
+        "nome": "TAIZ FERREIRA DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 9,
+                "media": 8.8
+            }
+        ]
+    },
+    {
+        "nome": "VICTORIA TAVARES SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "VICTORIA TAVARES SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 4,
+                "media": 3.6
+            }
+        ]
+    },
+    {
+        "nome": "RAMON CAVALCANTE DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 5,
+                "media": 5.2
+            }
+        ]
+    },
+    {
+        "nome": "EMERSON DA SILVA SANTOS",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 4,
+                "media": 4.4
+            }
+        ]
+    },
+    {
+        "nome": "ANAGLEYCE JANAINA SANTO SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 6,
+                "media": 6.4
+            }
+        ]
+    },
+    {
+        "nome": "ELYZA LUAN DE OLIVEIRA DE ARAUJO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 4,
+                "media": 4.4
+            }
+        ]
+    },
+    {
+        "nome": "LUAN VICTOR DA SILVA BATISTA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 8,
+                "media": 8.4
+            }
+        ]
+    },
+    {
+        "nome": "WALISSON DA SILVA BATISTA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 9,
+                "media": 8.8
+            }
+        ]
+    },
+    {
+        "nome": "VITÓRIA DELMIRO DOS SANTOS LIMA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "DEIVID SAMUEL DA SILVA BRITO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "LETICIA DE SOUSA ALVES",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 4,
+                "media": 4.4
+            }
+        ]
+    },
+    {
+        "nome": "MARIA FERNANDA BARBOSA MOURA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "MARIA LIDIANE FERREIRA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 9,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "MARIA SOPHIA DA SILVA GOMES",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 8,
+                "media": 8.4
+            }
+        ]
+    },
+    {
+        "nome": "NICOLE DE SOUSA MELO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 5,
+                "media": 5.2
+            }
+        ]
+    },
+    {
+        "nome": "TAYANNE DE SOUSA ALVES",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "WESLEY DOS SANTOS ALVES",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 8,
+                "media": 8.4
+            }
+        ]
+    },
+    {
+        "nome": "YASMIN SOARES DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 6,
+                "media": 6.4
+            }
+        ]
+    },
+    {
+        "nome": "YASMIN ARAÚJO DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 5,
+                "media": 5.2
+            }
+        ]
+    },
+    {
+        "nome": "ANA CAROLINA RODRIGUES SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "EMANUELLE PEREIRA DE SOUSA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 6,
+                "media": 6.4
+            }
+        ]
+    },
+    {
+        "nome": "FERNANDO GABRIEL DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "GABRIELA RIBEIRO SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 9,
+                "media": 8.8
+            }
+        ]
+    },
+    {
+        "nome": "GABRIELLE DE SOUZA SANTOS",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 8,
+                "media": 7.6
+            }
+        ]
+    },
+    {
+        "nome": "GUSTAVO OLIVEIRA DE SOUZA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 6,
+                "media": 6.4
+            }
+        ]
+    },
+    {
+        "nome": "JANAINA AMANDA FERREIRA DE LIMA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 4,
+                "media": 4.4
+            }
+        ]
+    },
+    {
+        "nome": "JENIFFER FERNANDA DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 8,
+                "media": 8.4
+            }
+        ]
+    },
+    {
+        "nome": "JESSICA NAYARA PEREIRA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 9,
+                "media": 8.8
+            }
+        ]
+    },
+    {
+        "nome": "JOAO VITOR DA SILVA ARAUJO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "JOSE LUCAS MATIAS BARBOSA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 7,
+                "media": 7.6
+            }
+        ]
+    },
+    {
+        "nome": "JOSE LUCAS MATIAS BARBOSA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 5,
+                "media": 5.2
+            }
+        ]
+    },
+    {
+        "nome": "JOSE VICTOR FERREIRA DOS SANTOS",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 6,
+                "media": 6.4
+            }
+        ]
+    },
+    {
+        "nome": "LEONARDO DE SOUSA BATISTA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 4,
+                "media": 4.4
+            }
+        ]
+    },
+    {
+        "nome": "LEONARDO TEIXEIRA DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 6,
+                "media": 6.4
+            }
+        ]
+    },
+    {
+        "nome": "LUIZ FELIPE DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 5,
+                "media": 5.2
+            }
+        ]
+    },
+    {
+        "nome": "LUIZA RAFAELA DE ARAUJO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 4,
+                "media": 4.4
+            }
+        ]
+    },
+    {
+        "nome": "MARIA EDUARDA SOARES DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 5,
+                "media": 5.2
+            }
+        ]
+    },
+    {
+        "nome": "PAULA KETLYN PEREIRA DE ARAUJO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 4,
+                "media": 4.4
+            }
+        ]
+    },
+    {
+        "nome": "PEDRO HENRIQUE FERREIRA MACHADO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 6,
+                "media": 6.4
+            }
+        ]
+    },
+    {
+        "nome": "PEDRO PAULO DE LIMA VENCESLAU",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 8,
+                "media": 8.4
+            }
+        ]
+    },
+    {
+        "nome": "PEDRO RAFAEL GOMES MATIAS",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "RAFAEL MATIAS DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 8,
+                "media": 8.4
+            }
+        ]
+    },
+    {
+        "nome": "RAFAEL DE OLIVEIRA NASCIMENTO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "TAYLOR DE ARAUJO VIANA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 8,
+                "media": 8.4
+            }
+        ]
+    },
+    {
+        "nome": "THIAGO VINICIUS BARROS PEREIRA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "THIAGO VINICIUS COUTINHO BARBOSA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "VITOR ALVES DE SOUSA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 9,
+                "media": 8.8
+            }
+        ]
+    },
+    {
+        "nome": "MARIA EDUARDA DA SILVA OLIVEIRA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "RAYANE RAFAELLA DOS SANTOS SANTOS",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 9,
+                "media": 8.8
+            }
+        ]
+    },
+    {
+        "nome": "RAISSA SANTOS DE OLIVEIRA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 4,
+                "media": 4.4
+            }
+        ]
+    },
+    {
+        "nome": "RAQUEL KELLY DE SOUSA LIMA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 5,
+                "media": 5.2
+            }
+        ]
+    },
+    {
+        "nome": "RAIANA BARBOSA DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 4,
+                "media": 4.4
+            }
+        ]
+    },
+    {
+        "nome": "CARLOS EDUARDO GONCALVES DOS SANTOS",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 6,
+                "media": 6.4
+            }
+        ]
+    },
+    {
+        "nome": "CARLOS EDUARDO GONCALVES DOS SANTOS",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 4,
+                "media": 4.4
+            }
+        ]
+    },
+    {
+        "nome": "DIOGO DA SILVA BATISTA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "GUSTAVO VINICIUS VIEIRA DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 6,
+                "media": 6.4
+            }
+        ]
+    },
+    {
+        "nome": "THALES GABRIEL FERREIRA DOS SANTOS",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "VICTOR GABRIEL GOMES DE MORAIS",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 10,
+                "prova": 10,
+                "media": 9.6
+            }
+        ]
+    },
+    {
+        "nome": "YASMIN DE SOUSA MELO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 5,
+                "media": 5.2
+            }
+        ]
+    },
+    {
+        "nome": "YASMIN LIMA DE OLIVEIRA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 10,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 7,
+                "media": 7.6
+            }
+        ]
+    },
+    {
+        "nome": "DANIEL SOARES DA SILVA FILHO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 6,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 8,
+                "media": 7.5
+            }
+        ]
+    },
+    {
+        "nome": "JOÃO VITOR FERREIRA DE OLIVEIRA COUTINHO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 8,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 8,
+                "media": 8.5
+            }
+        ]
+    },
+    {
+        "nome": "YANARA ELLEN PEREIRA DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 5,
+                "trabalho": 9,
+                "seminario": 8,
+                "prova": 7,
+                "media": 7.25
+            }
+        ]
+    },
+    {
+        "nome": "JAQUELINE DO NASCIMENTO BEZERRA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 6,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 8,
+                "media": 7.5
+            }
+        ]
+    },
+    {
+        "nome": "KIARELLY VALERIA DOS SANTOS CAVALCANTE",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 6,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 8,
+                "media": 7.5
+            }
+        ]
+    },
+    {
+        "nome": "ANA CLARA OLIVEIRA DA SILVA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 5,
+                "trabalho": 9,
+                "seminario": 8,
+                "prova": 7,
+                "media": 7.25
+            }
+        ]
+    },
+    {
+        "nome": "THOMAS NICOLAS DE SANTANA FAUSTINO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 8,
+                "trabalho": 9,
+                "seminario": 9,
+                "prova": 8,
+                "media": 8.5
+            }
+        ]
+    },
+    {
+        "nome": "JORMAXKYELL CONSTANCIO DOS SANTOS",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 7,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 8,
+                "media": 7.75
+            }
+        ]
+    },
+    {
+        "nome": "RAFAELA BARBOSA ALVES JACINTO",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 7,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 8,
+                "media": 7.75
+            }
+        ]
+    },
+    {
+        "nome": "IVONETE FERREIRA",
+        "curso": "Informática Profissional",
+        "dataInicio": "2024-07-06",
+        "modulos": [
+            {
+                "modulo": "PowerPoint",
+                "exercicios": 5,
+                "trabalho": 9,
+                "seminario": 7,
+                "prova": 8,
+                "media": 7.25
+            }
+        ]
+    }
+]

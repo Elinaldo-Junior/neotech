@@ -1,0 +1,28 @@
+{
+    "apostilasUrl": "caminho_para_suas_apostilas.html",
+    "avaUrl": "caminho_para_seu_ava.html",
+    "uploadActivityUrls": {
+        "Windows": "https://forms.gle/BV6gxxEkJJXq1z3A9",
+        "Word": "https://forms.gle/BV6gxxEkJJXq1z3A9",
+        "Excel": "https://forms.gle/BV6gxxEkJJXq1z3A9",
+        "PowerPoint": "https://forms.gle/BV6gxxEkJJXq1z3A9"
+    },
+    "viewSlidesUrls": {
+        "Windows": "https://docs.google.com/presentation/d/1PnVhjiBHnruTwOeLXjjpcr-ytwy0bGzcMwr4JEJAnIw",
+        "Word": "https://docs.google.com/presentation/d/1tFp0vR61l2u96PF3DQWwDd2IvVg13m-DaDIVhFf0VYA",
+        "Excel": "https://docs.google.com/presentation/d/16xlaEGZ-ESgbTo6z1Pfpp2S76Vq4Dtuf",
+        "PowerPoint": "https://docs.google.com/presentation/d/1sML9keDawByawJSHErq8jGz2CDRinWufyOtvTwtMvhA"
+    },
+    "viewBookUrls": {
+        "Windows": "https://drive.google.com/file/d/1C47y38DytP21EhPC0PR267OiyDbMLI8m/view?usp=sharing",
+        "Word": "caminho_para_visualizar_apostila_do_Word.html",
+        "Excel": "https://drive.google.com/file/d/1CemTCBfQi-o9U-VhO5YbzM0jaedACzk2/view?usp=sharing",
+        "PowerPoint": "https://drive.google.com/file/d/1o7kf_8_JEWhwCtpaf9urOXKB-3Z03Pu1/view?usp=drive_link"
+    },
+    "postExamUrls": {
+        "Windows": "#",
+        "Word": "#",
+        "Excel": "#",
+        "PowerPoint": "#"
+    }
+}
